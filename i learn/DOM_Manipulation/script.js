@@ -32,3 +32,6 @@ anchor.style.backgroundColor = "pink";
 anchor.style.border = "1px solid black";
 anchor.style.padding = "10px";
 anchor.style.display = "block";
+
+
+div.classList.add("theOnlyClass");
