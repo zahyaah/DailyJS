@@ -2,6 +2,7 @@ const body = document.body;
 
 const div = document.createElement("div");
 div.innerText = "Created";
+div.id = "firstDiv";
 body.append(div);
 
 const span = document.createElement("span")
@@ -15,3 +16,5 @@ anchor.setAttribute("href", "https://google.com");
 anchor.setAttribute("target", "_blank");
 anchor.innerText = "Googled!";
 body.append(anchor);
+
+div.remove();
