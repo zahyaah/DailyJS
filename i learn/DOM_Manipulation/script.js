@@ -26,3 +26,9 @@ body.append(anchor);
 
 span.dataset.newData = "cool";
 // console.log(span.dataset);
+
+anchor.style.textDecoration = "none";
+anchor.style.backgroundColor = "pink";
+anchor.style.border = "1px solid black";
+anchor.style.padding = "10px";
+anchor.style.display = "block";
