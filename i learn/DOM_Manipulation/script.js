@@ -35,3 +35,4 @@ anchor.style.display = "block";
 
 
 div.classList.add("theOnlyClass");
+div.classList.remove("theOnlyClass");
