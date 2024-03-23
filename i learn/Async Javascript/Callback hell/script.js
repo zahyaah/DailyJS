@@ -31,7 +31,7 @@ let production = () => {
                             setTimeout(() => {
                                 console.log("Ice cream was served!");
                             }, 2000);
-                        })
+                        }, 3000);
                     }, 2000);
                 }, 1000);
             },1000)
