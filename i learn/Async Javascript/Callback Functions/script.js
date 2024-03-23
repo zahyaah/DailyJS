@@ -40,7 +40,3 @@ let production = () => {
 
 
 order(2, production);
-
-setInterval(() => {
-    console.log("Zayd");
-}, 2000);
